@@ -1,0 +1,421 @@
+.main {
+	font-family: Verdana, sans-serif;
+	font-size: 12px;
+}
+
+.parentDiv {
+	background-image: url("../images/bg.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    width: 90%;
+    margin: auto;
+	border-radius: 25px;
+	border: 2px solid #F1F1F1;
+}
+
+.topDiv {
+	height: 30px;
+	width: 100%;
+}
+
+.subDiv1 {
+	width: 20%;
+	float: left;
+}
+
+.top1 {
+	width: 30%;
+	float: left;
+	padding-left: 30px;
+	padding-top: 10px;
+}
+
+.top1 div{    
+    width: 20px;
+    height: 2px;
+    background-color: #F08A4D;
+    margin: 5px 0;      
+}
+
+.top2 {
+	width: 50%;
+	float: left;
+	padding-top: 7px;
+	font-size: 17px;
+}
+
+.top2 span {
+	color: #F08A4D;
+}
+
+.top3 {
+	border-right: 2px solid #6b686829;
+	height: 40px;
+}
+
+.searchBar {
+	width: 50%;
+	float: left;
+}
+
+.searchBar input {
+    width: 45%;
+    color: #B4B4B4;
+    background: #F6F6F6;
+    border: 0px none;
+    margin: 7px 20px 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 5px 50px;
+}
+
+.barLine {
+	border-right: 2px solid #6b686829;
+	height: 40px;
+	margin-top: -36px;
+}
+
+.location {
+	width: 30%;
+	float: left;
+}
+
+.locName {
+	margin-top: 3px;
+	float: left;
+	margin-left: 10px;
+}
+
+.locName div {
+	width: 65px;
+	color: #fff;
+	background: #5A69A0;
+	border: 0px none;
+	margin-top: 10px;
+	border-radius: 5px;
+	text-align: center;
+	padding: 2px;
+}
+
+.user {
+	margin-top: 6px;
+	float: left;
+}
+
+.notify {
+	margin-top:14px;
+	float: left;
+}
+
+.notify span {
+	color: #fff;
+    background: #F08A4D;
+    border: 0px none;
+    border-radius: 10px;
+    padding: 6px 10px;
+}
+
+.bottomSection {
+	width: 100%;
+	border-top: 2px solid #6b686829;
+	margin-top: 10px;
+	height: 500px;
+}
+
+.leftsection {
+	width: 50%;
+	border-right: 2px solid #F08A4D;
+	float: left;
+	height: 500px;
+	padding-left: 20px;
+}
+
+.home {
+	width: 100%;
+	float: left;
+	color: #59659A;
+	padding: 10px;
+}
+
+.leftsec_1 {
+	width: 100%;
+	float: left;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.greyZone {
+	width: 40%;
+	background: #F1F1F1;
+	border-radius: 25px;
+	border: 0px none;
+	width: 150px;
+	height: 130px;
+	float: left;
+}
+
+.midZone {
+	width: 35%;
+	float: left;
+	padding-left: 10px;
+}
+
+.rideGreen {
+	width: 100%;
+	float: left;
+	height: 50px;
+	padding-top: 10px;
+}
+.rideGreen b {
+	font-size: 18px;
+}
+
+.bicycle {
+	width: 100%;
+	float: left;
+	height: 40px;
+}
+
+.bicycle span {
+    background: #59659A;
+    border-radius: 25px;
+    color: #fff;
+    border: 0px none;
+    padding: 5px 10px 5px;
+    font-size: 6px;
+}
+
+.price_sec {
+	width: 100%;
+	float: left;
+	height: 60px;
+}
+
+.price {
+	width: 50%;
+	float: left;
+}
+
+.ride {
+	width: 50%;
+	float: left;
+}
+
+.ride span {
+    background: #F1F1F1;
+    border-radius: 10px;
+    border: 0px none;
+    padding: 10px;
+    color: #F08A4D;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.fav_sec {
+	width: 25%;
+	float: left;
+	padding-left: 10px;
+}
+
+.fav_sec i{
+    padding: 5px;
+    background: #f0f0f0;
+    border-radius: 12px;
+    color: #F08A4D;
+}
+
+.fav_sec div {
+	padding: 10px;
+	float: left;
+	color: #F08A4D;
+}
+
+.row_1 {
+	width: 100%;
+    float: left;
+    margin-left: 20px;
+}
+
+.bicycle-row{
+    font-weight: 600;
+}
+
+.row_11 {
+	width: 40%;
+	float: left;
+	padding: 10px;
+}
+
+.row_11 span {
+	color: #59659A;
+	font-weight: 2px;
+}
+
+.row_11 div {
+	clear: both;
+	padding-top: 2px;
+}
+
+.row_21 {
+	width: 70%;
+	color: #F08A4D;
+	float: left;
+	padding: 10px;
+}
+
+.row_22 {
+	width: 20%;
+	color: #59659A;
+	float: right;
+	padding: 10px;
+}
+
+.last_row {
+    background: #59659A;
+    border-radius: 25px;
+    border: 0px none;
+    width: 25%;
+    height: 155px;
+    float: left;
+    margin-left: 10px;
+}
+
+.ext{
+    margin-left: 40px;
+}
+
+.right_content {
+	width: 38%;
+	float: left;
+}
+
+.plan {
+    margin: 45px 25px;
+	background: #F1F1F1;
+	border-radius: 25px;
+	border: 0px none;
+	height: 130px;
+	width: 86%
+}
+
+.right_sec {
+    display: flex;
+    padding: 25px 0px 0px 15px;
+}
+
+.subs_plan {
+	width: 70%;
+	float: left;
+}
+
+.know_more {
+	width: 20%;
+	float: right;
+	font-size: 8px;
+}
+
+.month {
+	background: #59659A;
+	padding: 2px;
+	text-align: center;
+	border-radius: 25px;
+	border: 0px none;
+	width: 17%;
+	height: 16px;
+	margin-left: 40px;
+	color: #fff;
+	font-size: 10px;
+}
+
+.price_sec {
+    padding: 10px;
+    display: flex;
+}
+
+.price_sec div {
+	width: 17%;
+	height: 16px;
+	margin-left: 40px;
+	color: #000;
+	font-size: 10px;
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+.price_sec .second{
+    margin-left: 38px;
+}
+
+.price_sec .third{
+    margin-left: 28px;
+}
+
+.specsheet {
+    margin: 0px 25px;
+}
+
+.specification {
+	padding-top: 20px;
+	width: 86%;
+}
+
+.dimensions {
+	background: #F1F1F1;
+	border-radius: 25px;
+	border: 0px none;
+	width: 100%;
+	height: 16px;
+	float: left;
+	color: #000;
+	font-size: 10px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+
+.motor {
+	background: #F1F1F1;
+	border-radius: 25px;
+	border: 0px none;
+	width: 100%;
+	height: 16px;
+	float: left;
+	color: #000;
+	font-size: 10px;
+	padding-left: 10px;
+}
+
+.dimensions div {
+	float: right;
+	margin-right: 5px;
+	font-weight: bold;
+}
+
+.motor div {
+	float: right;
+	margin-right: 5px;
+	font-weight: bold;
+}
+
+.motor_sec {
+	background: #fff;
+	padding-left: 10px;
+	float: left;
+	margin-left: 10px;
+	width: 94%;
+	height: 100px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border: 0px none;
+}
+
+.torque {
+	font-weight: bold;
+	font-size: 10px;
+	margin: 10px;
+}
+
+.momentum {
+	float: right;
+	padding-right: 10px;
+}
